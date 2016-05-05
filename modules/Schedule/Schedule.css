@@ -1,0 +1,225 @@
+#sch_Container {
+    width: 950px;
+    margin: 0 auto;
+}
+
+#sch_SingleSched {
+    width: 100%;
+    height: 100%;
+    display: table;
+    border-spacing: 2px;
+}
+#sch_Row {
+    display: table-row;
+    height: 100%;
+}
+#sch_DayAbout {
+    display: table-cell;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ccffff;
+    text-align: center;
+}
+#sch_DayInfo {
+    display: table-cell;
+    border: 1px solid black;
+    padding: 2px;
+    
+}
+
+#sch_ShiftInfo {
+    width: 100%;
+    text-align: center;
+    //font-size: 14px;
+    font-weight: bold;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#sch_SlotNumber {
+    //font-size: 12px;
+    padding-right: 5px;
+}
+
+#sch_SlotName {
+    //font-size: 12px;
+}
+
+#sch_SlotNameEmpty {
+    //font-size: 12px;
+    font-style: italic;
+    color: #0008ff;
+}
+
+#sch_Button {
+    padding: 5px 10px 5px 10px;
+}
+
+#sch_SchMeBtn {
+    text-align: center;
+    padding: 5px;
+}
+
+#sch_NoAvail {
+    color: #f60000;
+    font-weight: bold;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+
+#sch_NoShift{
+    text-align: center;
+    font-weight: bold;
+    color: #f60000; 
+}
+
+.sch_no-avail {
+    background-color: #ccc;
+}
+
+#sch_DatePickerDiv {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.sch_ImgPencil {
+    background-image: url('/img/pencil_small.png');
+    width: 20px;
+    height: 19px;
+    display: inline-block;
+}
+
+.sch_ImgNotePad {
+    width: 20px;
+    height: 19px;
+    display: inline-block;
+    background-image: url('/img/note.png');
+}
+
+#sch_ImgNote {
+    background-image: url('/img/note.png');
+    width: 20px;
+    height: 19px;
+    display: inline-block;
+}
+
+#sch_NotePad {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    width: 325px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: #FFFF69;
+}
+
+#sch_NotePadTitle {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    background-image: url('/img/topNoteFill.png');
+}
+
+#sch_NotePadTextArea {
+    width: 100%;
+    height: 138px;
+    text-align: center;
+    padding-bottom: 2px;
+    border-collapse: collapse;
+    background-color: #ffff69;
+}
+
+#sch_NoteText {
+    width: 98%;
+    height: 138px;
+    outline: none;
+    resize: none;
+    border: none;
+    font-family: Arial;
+    margin-left: 2px;
+    background-color: #FFFF69;
+    border-collapse: collapse;
+    font-weight: bold;
+}
+
+#sch_NotePadSave {
+    text-align: center;
+    width: 100%;
+    background-color: #FFFF69;
+    padding-top: 2px;
+}
+
+#sch_NotePadBtnSave {
+    padding: 5px;
+}
+
+#sch_NotePadBtnCancel {
+    padding: 5px;
+}
+
+#sch_DetailViewContainer {
+    
+}
+
+#sch_DetailViewHeader {
+    border-bottom: 1px solid black;
+}
+
+#sch_detLabel {
+    
+}
+
+#sch_ShowNoteViewContainer {
+    width: 250px;
+}
+
+#sch_ShowNoteViewTitle {
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin-bottom: 2px;
+}
+
+#sch_ShowNoteViewNote {
+    font-size: 14px;
+}
+
+#sch_detInfo {
+    
+}
+
+.sch_DatePicker:disabled {
+    background-color: white;
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+    color: black;
+    margin-right: 5px;
+    padding-bottom: 2px;
+    width: 150px;
+}
+
+a.telephone:link {text-decoration:none; color: blue;}
+a.telephone:visited {text-decoration:none; color: blue;}
+a.telephone:hover {text-decoration:underline; color: blue;}
+a.telephone:active {text-decoration:underline; color: blue;}
+
+#sch_DatePassed {
+    color: #FFFF00;
+    font-weight: bold;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}

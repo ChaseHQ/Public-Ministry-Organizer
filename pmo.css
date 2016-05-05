@@ -1,0 +1,92 @@
+root { 
+    display: block;
+}
+
+html,body {
+    margin: 0;
+    width: 100%;
+    height: 200px;
+    font-family: Arial;
+    background-color: #f7f5f1;
+}
+
+#top_container {
+    width: 100%;
+    height: 50px;
+    background-image: url('img/hiFill.png');
+    clear: both;
+    border-bottom: 1px black solid;
+}
+
+#top_image {
+    width: 400px;
+    height: 50px;
+    background-image: url('img/hiTitle.png');
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#right_image {
+    width: 100px;
+    height: 50px;
+    background-image: url('img/hiIcon.png');
+    background-repeat: no-repeat;
+    float: right;
+}
+
+#main_page {
+    width: 100%;
+    padding-top: 15px;
+}
+
+#login_box {
+    width: 450px;
+    height: 75px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 10px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#left_justify_login {
+    text-align: left;
+    margin-left: 7.85em;
+}
+
+#loginError {
+    color: red;
+    font-size: 10px;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+#hidden {
+    visibility: hidden;
+}
+
+.little_loader{
+    width: 200px;
+    height: 200px;
+    background-image: url('img/loadingBig.gif');
+    visibility: hidden;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: white;
+    margin-top: 15px;
+}
+
+a:link {text-decoration:none; color: #0099ff;}
+a:visited {text-decoration:none; color: #0099ff;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
+
+#version {
+    text-align: right;
+    font-weight: bold;
+    font-size: 10px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-right: 5px;
+}
